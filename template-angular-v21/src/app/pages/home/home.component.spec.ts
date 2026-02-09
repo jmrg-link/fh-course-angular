@@ -17,7 +17,7 @@ describe('HomeComponent', () => {
     const fixture = TestBed.createComponent(HomeComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.home__title')?.textContent).toContain('mi-primera-app');
+    expect(compiled.querySelector('.home__title')?.textContent).toContain('Hello, Angular v21');
   });
 
   it('should render BEM structure', () => {
