@@ -1,0 +1,22 @@
+:host {
+  display: block;
+}
+
+.about {
+  text-align: center;
+  padding: var(--spacing-xl) var(--spacing-md);
+}
+
+.about__title {
+  font-size: 2.5rem;
+  color: var(--text-main);
+  margin-bottom: var(--spacing-sm);
+}
+
+.about__text {
+  font-size: 1.125rem;
+  color: var(--text-muted);
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}

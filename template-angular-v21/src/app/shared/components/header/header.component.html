@@ -1,0 +1,14 @@
+<header class="navbar">
+  <a routerLink="/" class="navbar__logo">Template Angular v21</a>
+  <nav class="navbar__nav">
+    <a
+      routerLink="/"
+      routerLinkActive="navbar__link--active"
+      [routerLinkActiveOptions]="{ exact: true }"
+      class="navbar__link"
+    >
+      Home
+    </a>
+    <a routerLink="/about" routerLinkActive="navbar__link--active" class="navbar__link">About</a>
+  </nav>
+</header>
